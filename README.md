@@ -1,16 +1,12 @@
-# hello_app
+# Nhóm 2 INT3120_40
 
-A new Flutter project.
+- Nguyễn Hoàng Dương - 20021321
+- Hoàng Mạnh Bình - 20021305
+- Nguyễn Hồng Đăng - 20021330
 
-## Getting Started
+## Tuần 2 - "Hello World"
 
-This project is a starting point for a Flutter application.
 
-A few resources to get you started if this is your first Flutter project:
+<img src="https://user-images.githubusercontent.com/84310695/190576253-f073e908-3afb-4c0f-a374-e54ac276fd91.PNG" width="1000" height="550"/>
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+<img src="https://user-images.githubusercontent.com/84310695/190575270-aa817114-b816-48f6-b989-eb248f74b1c8.png" width="200" height="400"/>
