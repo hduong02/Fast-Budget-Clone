@@ -14,4 +14,4 @@
 ## Tuần 3 - Ứng dụng có sử dụng 5 loại điều khiển
 
 - Ứng dụng Fun quiz trả lời các câu hỏi đơn giản 
-<img src="https://user-images.githubusercontent.com/84310695/191900295-d32b7bce-d79a-4a66-90c3-79c2d7da3bef.gif" width="200" height="400"/>
+<img src="https://user-images.githubusercontent.com/84310695/191901103-947f2af7-6bf7-46ed-b98d-57f5312d0a74.gif" width="200" height="400"/>
