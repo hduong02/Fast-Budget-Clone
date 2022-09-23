@@ -35,21 +35,12 @@ class _MyAppState extends State<MyApp> {
       ],
     },
     {
-<<<<<<< HEAD
       'questionText': 'What\'s your favorite sport?',
       'answers': [
         {'text': 'Football', 'score': 1},
         {'text': 'Badminton', 'score': 1},
         {'text': 'Swim', 'score': 1},
         {'text': 'Golf', 'score': 1},
-=======
-      'questionText': 'Who\'s your favorite instructor?',
-      'answers': [
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
-        {'text': 'Max', 'score': 1},
->>>>>>> 0cc93e27663be7d29f020d1807b3e93406a6aefc
       ],
     },
   ];
@@ -91,11 +82,7 @@ class _MyAppState extends State<MyApp> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
-<<<<<<< HEAD
           title: Text('Fun quiz'),
-=======
-          title: Text('My First App'),
->>>>>>> 0cc93e27663be7d29f020d1807b3e93406a6aefc
         ),
         body: _questionIndex < _questions.length
             ? Quiz(
