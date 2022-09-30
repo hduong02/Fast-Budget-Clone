@@ -15,3 +15,7 @@
 
 - Ứng dụng Fun quiz trả lời các câu hỏi đơn giản 
 <img src="https://user-images.githubusercontent.com/84310695/191901103-947f2af7-6bf7-46ed-b98d-57f5312d0a74.gif" width="200" height="400"/>
+
+## Tuần 4 - Demo giao diện ứng dụng
+
+<img src="https://user-images.githubusercontent.com/84310695/193212257-1c62488d-62b2-4082-80aa-22e883b08c43.gif" width="200" height="400"/>
