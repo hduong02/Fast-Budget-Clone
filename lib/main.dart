@@ -1,96 +1,119 @@
 import 'package:flutter/material.dart';
-
-import './quiz.dart';
-import './result.dart';
-
+import 'package:flutter_svg/svg.dart';
+import 'package:meditation_app/constants.dart';
+import 'package:meditation_app/screens/details_screen.dart';
+import 'package:meditation_app/widgets/bottom_nav_bar.dart';
+import 'package:meditation_app/widgets/category_card.dart';
+import 'package:meditation_app/widgets/search_bar.dart';
 
 void main() => runApp(MyApp());
 
-class MyApp extends StatefulWidget {
+class MyApp extends StatelessWidget {
+  // This widget is the root of your application.
   @override
-  State<StatefulWidget> createState() {
-    // TODO: implement createState
-    return _MyAppState();
+  Widget build(BuildContext context) {
+    return MaterialApp(
+      debugShowCheckedModeBanner: false,
+      title: 'Meditation App',
+      theme: ThemeData(
+        fontFamily: "Cairo",
+        scaffoldBackgroundColor: kBackgroundColor,
+        textTheme: Theme.of(context).textTheme.apply(displayColor: kTextColor),
+      ),
+      home: HomeScreen(),
+    );
   }
 }
 
-class _MyAppState extends State<MyApp> {
-  final _questions = const [
-    {
-      'questionText': 'What\'s your favorite color?',
-      'answers': [
-        {'text': 'Black', 'score': 10},
-        {'text': 'Red', 'score': 5},
-        {'text': 'Green', 'score': 3},
-        {'text': 'White', 'score': 1},
-      ],
-    },
-    {
-      'questionText': 'What\'s your favorite animal?',
-      'answers': [
-        {'text': 'Rabbit', 'score': 3},
-        {'text': 'Snake', 'score': 11},
-        {'text': 'Elephant', 'score': 5},
-        {'text': 'Lion', 'score': 9},
-      ],
-    },
-    {
-      'questionText': 'What\'s your favorite sport?',
-      'answers': [
-        {'text': 'Football', 'score': 1},
-        {'text': 'Badminton', 'score': 1},
-        {'text': 'Swim', 'score': 1},
-        {'text': 'Golf', 'score': 1},
-      ],
-    },
-  ];
-  var _questionIndex = 0;
-  var _totalScore = 0;
-
-  void _resetQuiz() {
-    setState(() {
-      _questionIndex = 0;
-      _totalScore = 0;
-    });
-  }
-
-  void _answerQuestion(int score) {
-    // var aBool = true;
-    // aBool = false;
-
-    _totalScore += score;
-
-    setState(() {
-      _questionIndex = _questionIndex + 1;
-    });
-    print(_questionIndex);
-    if (_questionIndex < _questions.length) {
-      print('We have more questions!');
-    } else {
-      print('No more questions!');
-    }
-  }
-
+class HomeScreen extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    // var dummy = const ['Hello'];
-    // dummy.add('Max');
-    // print(dummy);
-    // dummy = [];
-    // questions = []; // does not work if questions is a const
-
-    return MaterialApp(
-      home: Scaffold(
-        appBar: AppBar(
-          title: Text('Fun quiz'),
-        ),
-        body: _questionIndex < _questions.length
-            ? Quiz(
-                answerQuestion: _answerQuestion,
-                questionIndex: _questionIndex,
-                questions: _questions,
-              )
-            : Result(_totalScore, _resetQuiz),
+    var size = MediaQuery.of(context)
+        .size; //this gonna give us total height and with of our device
+    return Scaffold(
+      bottomNavigationBar: BottomNavBar(),
+      body: Stack(
+        children: <Widget>[
+          Container(
+            // Here the height of the container is 45% of our total height
+            height: size.height * .45,
+            decoration: BoxDecoration(
+              color: Color(0xFFF5CEB8),
+              image: DecorationImage(
+                alignment: Alignment.centerLeft,
+                image: AssetImage("assets/images/undraw_pilates_gpdb.png"),
+              ),
+            ),
+          ),
+          SafeArea(
+            child: Padding(
+              padding: const EdgeInsets.symmetric(horizontal: 20),
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.start,
+                children: <Widget>[
+                  Align(
+                    alignment: Alignment.topRight,
+                    child: Container(
+                      alignment: Alignment.center,
+                      height: 52,
+                      width: 52,
+                      decoration: BoxDecoration(
+                        color: Color(0xFFF2BEA1),
+                        shape: BoxShape.circle,
+                      ),
+                      child: SvgPicture.asset("assets/icons/menu.svg"),
+                    ),
+                  ),
+                  Text(
+                    "Good Mornign \nShishir",
+                    style: Theme.of(context)
+                        .textTheme
+                        .headline4
+                        .copyWith(fontWeight: FontWeight.w900),
+                  ),
+                  SearchBar(),
+                  Expanded(
+                    child: GridView.count(
+                      crossAxisCount: 2,
+                      childAspectRatio: .85,
+                      crossAxisSpacing: 20,
+                      mainAxisSpacing: 20,
+                      children: <Widget>[
+                        CategoryCard(
+                          title: "Diet Recommendation",
+                          svgSrc: "assets/icons/Hamburger.svg",
+                          press: () {},
+                        ),
+                        CategoryCard(
+                          title: "Kegel Exercises",
+                          svgSrc: "assets/icons/Excrecises.svg",
+                          press: () {},
+                        ),
+                        CategoryCard(
+                          title: "Meditation",
+                          svgSrc: "assets/icons/Meditation.svg",
+                          press: () {
+                            Navigator.push(
+                              context,
+                              MaterialPageRoute(builder: (context) {
+                                return DetailsScreen();
+                              }),
+                            );
+                          },
+                        ),
+                        CategoryCard(
+                          title: "Yoga",
+                          svgSrc: "assets/icons/yoga.svg",
+                          press: () {},
+                        ),
+                      ],
+                    ),
+                  ),
+                ],
+              ),
+            ),
+          )
+        ],
       ),
     );
   }
