@@ -17,6 +17,6 @@
 <img src="https://user-images.githubusercontent.com/84310695/191901103-947f2af7-6bf7-46ed-b98d-57f5312d0a74.gif" width="200" height="400"/>
 
 
-## Tuần 4: Cập nhật Repo Github và các công việc đã làm
-- Đã cập nhật repo github
+## Tuần 4 đến 7: Cập nhật Repo Github và các công việc đã làm
 - Các công việc đã làm: Cập nhật giao diện Mobile App.
+<img src="https://user-images.githubusercontent.com/84310695/197125365-ebd5c6f8-c538-4386-ab14-c79f17bcc92d.gif" width="200" height="400"/>
