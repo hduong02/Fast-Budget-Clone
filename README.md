@@ -20,3 +20,6 @@
 ## Tuần 4 đến 7: Cập nhật Repo Github và các công việc đã làm
 - Các công việc đã làm: Cập nhật giao diện Mobile App.
 <img src="https://user-images.githubusercontent.com/84310695/197125365-ebd5c6f8-c538-4386-ab14-c79f17bcc92d.gif" width="200" height="400"/>
+
+## Tuần 8 - Kiểm thử ứng dụng với Monkey Exerciser
+https://user-images.githubusercontent.com/84310695/198511983-17b5f20e-8176-493a-9af7-abc036e91761.PNG
