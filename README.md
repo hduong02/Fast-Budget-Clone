@@ -24,8 +24,7 @@
 ## Tuần 8 - Kiểm thử ứng dụng với Monkey Exerciser
 <img src="https://user-images.githubusercontent.com/84310695/198511983-17b5f20e-8176-493a-9af7-abc036e91761.PNG" width="600" height="320"/>
 
-## Tuần 9 + 10 - Kiểm thử ứng dụng với Monkey Exerciser
-- Cập nhật các màn hình đã hoàn thiện
+## Tuần 9 + 10 - Cập nhật các màn hình đã hoàn thiện
 
 | <img src="https://user-images.githubusercontent.com/84310695/201481980-76519953-c214-4a43-89c2-05904a8a0bce.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201481987-ba6ed3dd-2ce7-4f87-a335-7ee2fb39a22b.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482001-9163cd1f-1874-4738-85b7-f2d91b2dbc98.png" alt="" width="250"/> |
 |---|---|---|
