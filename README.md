@@ -23,3 +23,10 @@
 
 ## Tuần 8 - Kiểm thử ứng dụng với Monkey Exerciser
 <img src="https://user-images.githubusercontent.com/84310695/198511983-17b5f20e-8176-493a-9af7-abc036e91761.PNG" width="600" height="320"/>
+
+## Tuần 9 + 10 - Kiểm thử ứng dụng với Monkey Exerciser
+- Cập nhật các màn hình đã hoàn thiện
+
+| <img src="https://user-images.githubusercontent.com/84310695/201481980-76519953-c214-4a43-89c2-05904a8a0bce.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201481987-ba6ed3dd-2ce7-4f87-a335-7ee2fb39a22b.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482001-9163cd1f-1874-4738-85b7-f2d91b2dbc98.png" alt="" width="250"/> |
+|---|---|---|
+| <img src="https://user-images.githubusercontent.com/84310695/201482016-fa3902b5-712a-4a94-8fab-106ef8ce7caf.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482023-bfd0efe7-e979-415b-8df3-7ca226c1cbf9.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482356-a9fc5b73-81f5-48ea-aec9-ac9445d0aaa5.gif" alt="" width="250"/> |
