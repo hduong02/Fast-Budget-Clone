@@ -29,3 +29,8 @@
 | <img src="https://user-images.githubusercontent.com/84310695/201481980-76519953-c214-4a43-89c2-05904a8a0bce.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201481987-ba6ed3dd-2ce7-4f87-a335-7ee2fb39a22b.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482001-9163cd1f-1874-4738-85b7-f2d91b2dbc98.png" alt="" width="250"/> |
 |---|---|---|
 | <img src="https://user-images.githubusercontent.com/84310695/201482016-fa3902b5-712a-4a94-8fab-106ef8ce7caf.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482023-bfd0efe7-e979-415b-8df3-7ca226c1cbf9.png" alt="" width="250"/> | <img src="https://user-images.githubusercontent.com/84310695/201482356-a9fc5b73-81f5-48ea-aec9-ac9445d0aaa5.gif" alt="" width="250"/> |
+
+## Tuần 11 + 12 - Các API trao đổi dữ liệu với database
+| <img src="https://user-images.githubusercontent.com/84310695/203896928-eb0ef1f5-03aa-4efb-86ab-5590eee06b58.PNG" alt="" width="600"/> | <img src="https://user-images.githubusercontent.com/84310695/203896933-7fdb5b90-853a-4b65-a563-e1c485e9b58c.PNG" alt="" width="600"/> |
+|---|---|
+| <img src="https://user-images.githubusercontent.com/84310695/203896937-d71a1266-37f1-47eb-98ab-4794967ac566.PNG" alt="" width="600"/> | <img src="https://user-images.githubusercontent.com/84310695/203896944-e880ba1d-6fee-462d-8f5c-082f0b285afd.PNG" alt="" width="600"/> | 
