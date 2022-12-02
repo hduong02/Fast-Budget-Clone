@@ -1,10 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:moneymanager/core/database/moor_database.dart';
-import 'package:moneymanager/core/viewmodels/home_model.dart';
+import 'package:moneymanager/core/viewmodels/transactions_model.dart';
 
 class TransactionsListView extends StatefulWidget {
   final List<Transaction> transactions;
-  final HomeModel model;
+  final TransactionModel model;
 
   const TransactionsListView(
     this.transactions,

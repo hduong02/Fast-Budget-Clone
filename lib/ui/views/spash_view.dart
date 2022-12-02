@@ -16,7 +16,7 @@ class SpashView extends StatelessWidget {
         seconds: 2,
         navigateAfterSeconds: HomeView(),
         title: new Text(
-          'Money Manager',
+          'Fast Budget',
           style: TextStyle(fontSize: 30, fontWeight: FontWeight.w600),
         ),
         image: new Image.asset(

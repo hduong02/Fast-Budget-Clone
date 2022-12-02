@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:moneymanager/core/viewmodels/home_model.dart';
+import 'package:moneymanager/core/viewmodels/transactions_model.dart';
 
 class AppBarTitle extends StatelessWidget {
-  final HomeModel model;
+  final TransactionModel model;
   final String title;
   const AppBarTitle({Key key, this.model, this.title}) : super(key: key);
 

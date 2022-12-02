@@ -25,12 +25,6 @@ class AppDrawer extends StatelessWidget {
             ),
           ),
           ListTile(
-            title: Text('hoangduongvd99@gmail.com'),
-          ),
-          Divider(
-            thickness: 1,
-          ),
-          ListTile(
             title: Text('Overview'),
             leading: Icon(Icons.view_quilt),
             onTap: () {
@@ -69,10 +63,6 @@ class AppDrawer extends StatelessWidget {
           ),
           Divider(
             thickness: 1,
-          ),
-          ListTile(
-            title: Text('Sign out'),
-            leading: Icon(Icons.logout),
           ),
         ],
       ),

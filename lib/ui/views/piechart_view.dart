@@ -51,7 +51,11 @@ class PieChartView extends StatelessWidget {
                         ),
                         model.dataMap.length == 0
                             ? Text('No Data for this month')
-                            : PieChart(dataMap: model.dataMap),
+                            : PieChart(dataMap: model.dataMap,
+                          chartValuesOptions: ChartValuesOptions(
+                            showChartValuesInPercentage: true,
+                          ),
+                        ),
                       ],
                     ),
                   ),

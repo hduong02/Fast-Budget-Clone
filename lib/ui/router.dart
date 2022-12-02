@@ -8,6 +8,7 @@ import 'package:moneymanager/ui/views/new_transaction_view.dart';
 import 'package:moneymanager/ui/views/piechart_view.dart';
 import 'package:moneymanager/ui/views/reminder_view.dart';
 import 'package:moneymanager/ui/views/spash_view.dart';
+import 'package:moneymanager/ui/views/transactions_view.dart';
 
 const String initialRoute = "login";
 
@@ -18,6 +19,8 @@ class Routers {
         return MaterialPageRoute(builder: (_) => SpashView());
       case 'home':
         return MaterialPageRoute(builder: (_) => HomeView());
+      case 'transaction':
+        return MaterialPageRoute(builder: (_) => TransactionView());
       case 'edit':
         var transaction = settings.arguments as Transaction;
         return MaterialPageRoute(builder: (_) => EditView(transaction));
